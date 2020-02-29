@@ -22,7 +22,6 @@ export const GenesTable = () => {
           }
 
           newData.data.sort( compare );
-          console.log(newData.data)
           setData(newData.data.splice(0, 5));
       })
     }

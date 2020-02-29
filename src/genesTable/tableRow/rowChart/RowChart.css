@@ -1,6 +1,8 @@
 .chart {
   width: 800px;
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .line {
@@ -17,4 +19,9 @@
 
 .grid path {
   stroke-width: 0;
+}
+
+.bar {
+  fill: #5DADE2;
+  width: 35px;
 }
